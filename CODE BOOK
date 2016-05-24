@@ -1,0 +1,28 @@
+FIlE NAMES
+
+•	activit_label_file, features_file, train_file, train_act, train_sub, train_com, test_file, test_act, test_sub, and test_com contains the data file from original dataset.
+•	complete_data is the completed data set made by combining train and test data.
+•	mean_data contains the mean of the coulmns based on subject and activity level.
+
+
+FUNCTIONS USED
+
+Download.file: to download data from link
+Read.table: to read the data file
+Grep: to find text in a string
+Gsub: to replace string from another
+Cbind: to combine data column wise
+Rbind: to combine data row wise
+Ddply: this function here  is used for finding mean of columns based on Subject and activity levels
+
+
+LEVELS
+
+•	Subject: The ID of the test subject
+•	Activity: Activities performed corresponding to the measurement taken
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
